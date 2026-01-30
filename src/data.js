@@ -12,5 +12,5 @@ export const resumeData = {
 
 export const socialLinks = {
   github: `https://github.com/${GITHUB_USERNAME}`,
-  linkedin: "https://linkedin.com/in/your-profile"
+  linkedin: "https://www.linkedin.com/in/abhishek-k-ab3b6b187/"
 };

@@ -33,3 +33,29 @@ button:hover {
   background: cyan !important;
   color: black !important;
 }
+
+/* Ensure the Modal is responsive */
+@media (max-width: 768px) {
+  /* Make the modal box fit the width of the phone */
+  div[style*="maxWidth: '500px'"] {
+    width: 90% !important;
+    padding: 20px !important;
+    margin: 10px;
+  }
+
+  /* Shrink text slightly for mobile */
+  h2 { font-size: 1.1rem !important; }
+  p { font-size: 0.85rem !important; }
+  
+  /* Make buttons bigger for touch targets */
+  a[style*="padding: '12px'"] {
+    padding: 15px !important;
+  }
+}
+
+/* Add a hover effect for desktop, but keep it clean for touch */
+.nav-link:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+  border-color: #ff3300 !important;
+  color: #ff3300 !important;
+}
